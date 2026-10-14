@@ -27,7 +27,7 @@ data class CabeceraImagenData(
 )
 
 @Composable
-fun CabeceraImagen(data: CabeceraImagenData, modifier: Modifier) {
+fun CabeceraImagen(data: CabeceraImagenData, modifier: Modifier = Modifier) {
 
     Box(
         modifier = modifier

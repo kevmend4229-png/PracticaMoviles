@@ -24,7 +24,7 @@ data class TarjetaItemData(
 )
 
 @Composable
-fun TarjetaItem(data: TarjetaItemData, modifier: Modifier){
+fun TarjetaItem(data: TarjetaItemData, modifier: Modifier = Modifier){
     Column (
         modifier = modifier.fillMaxWidth()
             .padding(10.dp)) {
